@@ -6,8 +6,9 @@ import { Alert } from '@material-ui/lab'
 import { UrlField } from 'components/url-field'
 import { UrlResult } from 'components/url-result'
 import { getLinkUrl } from 'helpers/url'
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
+  resetState,
   setExistingShortUrlIdentifier,
   setUrl,
   updateUrl
@@ -43,6 +44,8 @@ export const UpdateUrl = () => {
   const urlError = useUrlError()
   const canUpdate = useCanUpdate()
   const classes = useStyles()
+
+  useEffect(() => resetState, [])
 
   return (
     <Grid container alignItems="center" spacing={2}>

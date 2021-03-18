@@ -48,7 +48,7 @@ export const CreateUrl = () => {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <UrlField url={url} error={urlError} setUrl={setUrl} />
+        <UrlField url={url} error={urlError} autoFocus setUrl={setUrl} />
       </Grid>
       <Grid item xs={12}>
         <div className={classes.buttonContainer}>

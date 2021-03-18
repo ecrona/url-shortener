@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-The client requires jdk version 11+ and mysql version 5+
+The client requires jdk version 11+, apache maven version 3.6.0+ and mysql version 5+
 
 ## Installing
 
