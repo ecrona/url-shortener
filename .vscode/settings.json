@@ -1,0 +1,10 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
